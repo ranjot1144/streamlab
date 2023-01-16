@@ -32,14 +32,14 @@
     <div class="card">
         <div class="card-header"><strong>{{ __('6 months plan') }} of <span>&#163;</span>100 </strong></div>
         <p class="card-body">Save your <span>&#163;</span>15 per month, if you pay the 6 month full amount.</p>
-        <a href="#" class="btn btn-primary get-package" data-amount="100">Proceed to Pay</a>
+        <a href="#" class="btn btn-primary get-package" data-amount="100" data-plan_id="1">Proceed to Pay</a>
     </div>
   </div>
   <div class="col-sm-6">
     <div class="card">
         <div class="card-header"><strong>{{ __('12 months plan') }} of <span>&#163;</span>200 </strong></div>
         <p class="card-body">Save your <span>&#163;</span>40 per month, if you pay the 12 months full amount.</p>
-        <a href="#" class="btn btn-primary get-package" data-amount="200">Proceed to Pay</a>
+        <a href="#" class="btn btn-primary get-package" data-amount="200" data-plan_id="12">Proceed to Pay</a>
     </div>
   </div>
 </div>

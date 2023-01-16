@@ -13,6 +13,5 @@ class CheckoutController extends Controller
           $customerId = $brainTree->createCustomer();
           $paymentMethodToken = $brainTree->createPaymentMethod($customerId, $request->paymentMethodNonce);
           $brainTree->createSubscription($paymentMethodToken, $request->planId);
-
       }
 }

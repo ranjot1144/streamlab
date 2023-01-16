@@ -17,17 +17,17 @@ class Braintree
         $plans = [
             [
                 'id' => "m_001",
-                'name' => "Monthly Plan",
+                'name' => "6 Monthly Plan",
                 'billingFrequency' => "1",
-                'currencyIsoCode' => "USD",
-                'price' => "10"
+                'currencyIsoCode' => "GBP",
+                'price' => "100"
             ],
             [
                 'id' => "a_001",
                 'name' => "Annual Plan",
                 'billingFrequency' => "12",
-                'currencyIsoCode' => "USD",
-                'price' => "99"
+                'currencyIsoCode' => "GBP",
+                'price' => "200"
             ]
         ];
         foreach ($plans as $plan)
@@ -44,10 +44,10 @@ class Braintree
         $result = $gateway->customer()->create([
             'firstName' => $user->name,
             'lastName' => $user->name,
-            'company' => 'StreamLabs Co.',
+            'company' => 'Streamstatus Co.',
             'email' => $user->email,
-            'phone' => '281.330.8004',
-            'fax' => '419.555.1235',
+            'phone' => '773.214.5269',
+            'fax' => '999.999.1234',
             'website' => 'http://example.com'
         ]);
 
